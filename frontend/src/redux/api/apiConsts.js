@@ -1,0 +1,10 @@
+const env = process.env
+export const SERVER_ADDRESS = "http://localhost"//env.REACT_APP_SERVER_ADDRESS
+export const SERVER_PORT = '3001'
+export const SERVER_PATH = SERVER_ADDRESS + ':' + SERVER_PORT
+export const AUTH = '/api/auth'
+export const POSTS = '/posts'
+export const USERS = '/users'
+export const POST_CATEGORIES = '/postCategories'
+export const POST_COMMENTS = '/comments'
+//export const POSTS_PATH = SERVER_PATH + POSTS

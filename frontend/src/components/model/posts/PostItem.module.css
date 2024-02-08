@@ -1,0 +1,29 @@
+/* .post{
+  @apply bg-white hover:bg-gray-200 border-2  border-gray-900 text-sm sm:text-base text-gray-900 py-3 px-5 rounded-lg font-medium tracking-wide leading-none;
+} */
+
+.article{
+  @apply relative
+  flex flex-col items-start justify-between flex-grow
+  h-full  p-4 sm:rounded-xl border-2 bg-white hover:bg-gray-100
+  w-full
+}
+
+/* .post__content{
+  @apply bg-white hover:bg-gray-200 border-2  border-gray-900 text-sm sm:text-base text-gray-900 py-3 px-5 rounded-lg font-medium tracking-wide leading-none;
+} */
+
+
+/* .post_content{
+  @apply group-hover:bg-sky-500;
+  
+} */
+ /* relative;  */
+
+.post_title{
+  @apply mt-3 text-sm sm:text-base md:text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-50;
+}
+.post_description{
+  @apply mt-5 text-sm sm:text-base leading-6 text-gray-600 line-clamp-3;
+}
+

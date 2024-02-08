@@ -1,0 +1,17 @@
+.postList {
+    @apply grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3 items-stretch lg:max-w-none md:gap-x-4 lg:gap-x-8;
+}
+
+/* где item - это classNames="item" в теге <CSSTransition> для PostListItem в PostList*/
+.item-enter {
+    @apply opacity-0;
+}
+.item-enter-active {
+    @apply opacity-100 transition-opacity duration-300 ease-in;
+}
+.item-exit {
+    @apply opacity-100;
+}
+.item-exit-active {
+    @apply opacity-0 transition-opacity duration-300 ease-in;
+}

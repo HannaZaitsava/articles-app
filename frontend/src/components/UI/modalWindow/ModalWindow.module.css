@@ -1,0 +1,13 @@
+.modalWindow {
+    @apply hidden/* display: none */
+  fixed inset-0 /* fixed - in order to be centered when scrolling */
+  border-2 border-gray-300 bg-gray-800 bg-opacity-70 pointer-events-none z-10;
+}
+
+.modalWindowActive {
+    @apply flex justify-center items-center pointer-events-auto;
+}
+
+.modalWindowContainer {
+    @apply bg-white rounded p-6 w-full sm:w-[70%] md:w-[50%] min-h-fit;
+}
