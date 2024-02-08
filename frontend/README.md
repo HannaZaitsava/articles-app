@@ -2,6 +2,7 @@
 
 This application is my pet project using ReactJS for the first time.
 The goal is to learn how to use general approaches of React and Redux-Toolkit-Query in developing web application using React hooks, context, React Router, forms, modal windows, etc. To gain an expirience in http CRUD operations and an user authentication approach on the backend side I built a JSON server. To style components I used Tailwind CSS.
+
 ## App Description
 
 The application is styled for several media devices. Users can work with app in anonymous or authenticated mode.
@@ -20,9 +21,10 @@ Once a user logged in, they will be redirected to the previous page, and the reg
 ## Installation
 
 * `git clone git@github.com:HannaZaitsava/articles-app.git`
-* `cd react-app-first/backend`
+* `cd articles-app/backend`
 * `npm install`
-* `cd react-app-first/frontend`
+* `cd ../..`
+* `cd articles-app/frontend`
 * `npm install`
 * `npm run startdev` - starts backend and frontend concurrently
 * visit http://localhost:3000/
@@ -31,10 +33,10 @@ In order to run backend and frontend separately follow next steps:
 
 * Start backend:
 
-  * `cd react-app-first/backend`
+  * `cd articles-app/backend`
   * `npm run start`
 
 * Start frontend:
 
-  * `cd react-app-first/frontend`
+  * `cd articles-app/frontend`
   * `npm run start`
